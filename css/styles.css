@@ -13,7 +13,7 @@ html{min-height:100%;
 /*Css page connexion*/
 #connexion input{
 	font-size:1.1em;
-	min-width:320px;
+	min-width:280px;
 	border-radius:7px;
 }
 #connexion input:hover{
@@ -223,13 +223,40 @@ h1{
 }	
 
 #liste_select{
-	background:#000;
-	-webkit-opacity:0.4;
-	opacity:0.4;
+	background:#333;
+	-webkit-opacity:0.8;
+	opacity:0.8;
 	min-height:100%;
-	margin:0 0;
-	
+	padding:0;
+	margin:0;
+	list-style:none;
+	text-align: center;
+	width: 320px;
 	}
+	
+#liste_select ul {
+  padding:0;
+  margin:0;
+  list-style:none;
+  text-align: center;
+}
+#liste_select li li {
+   max-height:0;
+   overflow: hidden;
+   transition: all 1s;
+   border-radius:0;
+   background: #EEE;
+   box-shadow: none;
+   border:none;
+   margin:0
+}
+#liste_select li li:hover  {
+  background: #EEE;
+  
+}  
+#liste_select li:hover li {
+  max-height: 15em;
+}
 h2{font-size:1em;	margin:4% 0 4% 10.625%;color:#696969;}
 	
 #liste_select a{
