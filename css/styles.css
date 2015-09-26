@@ -94,6 +94,7 @@ h1{
 	text-align:center;
 	color:white;
 	font-weight: bold;
+
 	text-decoration:none;
 	padding-bottom:2%;
 	
@@ -150,10 +151,10 @@ h1{
 #nav a #Reunion_conseil{
 	background:url(../images/icones-nav-politique.png) no-repeat  0 center;
 	}
-#nav a #consult_public{
+#nav a #horaire_administrations{
 	background:url(../images/icones-nav-politique.png) no-repeat  -59px center;
 	}
-#nav a #horaire_administrations{
+#nav a #consult_public{
 	background:url(../images/icones-nav-politique.png) no-repeat  -118px center;
 	}
 /* page vie quotidienne */
@@ -264,6 +265,10 @@ section{
 	padding-bottom:2%;
 
 }
+section a{
+	color:#7A0C19;
+}
+
 footer {
     position: absolute;
     clear:both;
