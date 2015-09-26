@@ -9,6 +9,19 @@ html{min-height:100%;
 	padding:0;
 	}
 
+	
+/*Css page connexion*/
+#connexion input{
+	font-size:1.1em;
+	min-width:320px;
+	border-radius:7px;
+}
+#connexion input:hover{
+	box-shadow:0px 0px 5px rgba(0,0,0,0.5);
+}
+
+
+/*Css pages générales*/
 ul, ol{list-style:none;}
 
 a{color:#FFF;
@@ -203,19 +216,23 @@ h1{
 	margin-left:10.625%;
 	margin-top:5%;
 	}
-	
 
-#listeFournitures{
+.enhaut{
+	display:inline-block;
+
+}	
+
+#liste_select{
 	background:#000;
 	-webkit-opacity:0.4;
 	opacity:0.4;
 	min-height:100%;
-	margin:0 10.625%;
+	margin:0 0;
 	
 	}
 h2{font-size:1em;	margin:4% 0 4% 10.625%;color:#696969;}
 	
-#listeFournitures a{
+#liste_select a{
 	display:block;
 	color:#FFF;
 	text-align:left;
