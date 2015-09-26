@@ -78,7 +78,22 @@ h1{
 	padding-bottom:2%;
 	
 	}
+.rubrique{
+	display:block;
+	width:90%;
+	margin:auto;
+	font-size:1.2s5em;
+	background:#2B477A;
+	-webkit-opacity:0.6;
+	opacity:0.6;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	text-align:center;
+	color:white;
+	text-decoration:none;
+	padding-bottom:2%;
 	
+	}	
 #nav a .icone{
 	display:block;
 	width:59px;
@@ -108,8 +123,8 @@ h1{
 #nav a #Consommation{
 	background:url(../images/icones-nav.png) no-repeat  -354px center;
 	}
-#nav a #boutiques{
-	background:url(../images/icones-nav.png) no-repeat  -350px center;
+#nav a #geolocaliser{
+	background:url(../images/icones-nav.png) no-repeat  -413px center;
 	}
 /* page transport */
 #nav a #Circulation{
@@ -224,5 +239,9 @@ textarea{width:40%;}
 li:last-child label{visibility:hidden;}
 
 input{margin-bottom:10px;}
+
+section{
+	margin:10px;
+}
 
 
