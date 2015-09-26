@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="apple-mobile-web-app-capable" content="yes" />
+
+<link rel="apple-touch-startup-image" href="images/splash.png" />
+
+<link href="images/icone-57.png" rel="apple-touch-icon-precomposed" />
+<link href="images/icone-72.png" sizes="72x72" rel="apple-touch-icon-precomposed" />
+<link href="images/icone-114.png" sizes="114x114" rel="apple-touch-icon-precomposed" />
+
+<link rel="shortcut icon" href="images/icone.ico" type="image/x-icon" />
+
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, user-scalable=no, maximun-scale=0.6667" />
+<link href="css/styles.css" rel="stylesheet" type="text/css"  />
+
+<link href="css/styles320.css" rel="stylesheet" type="text/css" media="screen and (-webkit-device-pixel-ratio:1) and (max-device-width:320px)" />
+
+<link href="css/styles.css" rel="stylesheet" type="text/css" media="screen and (-webkit-device-pixel-ratio:2)" />
+
+<script type="text/javascript">
+	window.onload=function(){
+		document.getElementById("prec").onclick=function(){
+			window.history.back(0);
+		}
+	}
+</script>
+
+<style type="text/css">
+@media all{
+	#contenu #image{
+		background::url(images/impr520.jpg) no-repeat;
+		width: 520px;
+		height:362px;
+		margin:0 auto;
+		background-size:cover;
+		}
+	
+	#contenu p{
+		display:none;
+		}
+		
+	#detail1{
+		float:left;
+		margin:0 20px;
+		width:200px;
+		height:200px;
+		background:url(images/detail-1-280.jpg) no-repeat;
+		}
+		
+	#detail2{
+		float:left;
+		width:200px;
+		height:200px;
+		background:url(images/detail-2-280.jpg) no-repeat;
+		}
+	
+}
+
+@media screen and (max-device-width:320px) and (-webkit-min-device-pixel-ratio:1) and (orientation:portrait){
+	#detail1, #detail2{display:none;}
+	#contenu #image{
+		background:url(images/impr260.jpg);
+		width:260px;
+		height:181px;
+		margin:0 auto;
+		}
+	#contenu p{width:260px; margin:0 auto; font-size:1.5em;display:block;}
+	
+	
+}
+
+@media screen and (max-device-width:320px) and (-webkit-min-device-pixel-ratio:1) and (orientation:landscape){
+	#detail1{
+		float:left;
+		margin:0 20px;
+		width:140px;
+		height:140px;
+		background:url(images/detail-1-140.jpg) no-repeat;
+		}
+		
+	#detail2{
+		float:left;
+		width:140px;
+		height:140px;
+		background:url(images/detail-2-140.jpg) no-repeat;
+		}
+	#contenu, h2{display:none;}
+}
+
+
+@media screen and (max-device-width:320px) and (-webkit-min-device-pixel-ratio:2) and (orientation:portrait){
+	#detail1, #detail2{display:none;}
+	#contenu #image{
+		background:url(images/impr520.jpg);
+		width:260px;
+		height:181px;
+		margin:0 auto;
+		}
+	#contenu p{width:260px; margin:0 auto; font-size:1.5em;display:block;}
+	
+	
+}
+
+@media screen and (max-device-width:320px) and (-webkit-min-device-pixel-ratio:2) and (orientation:landscape){
+	#detail1{
+		float:left;
+		margin:0 20px;
+		width:140px;
+		height:140px;
+		background:url(images/detail-1-280.jpg) no-repeat;
+		background-size:cover;
+		}
+		
+	#detail2{
+		float:left;
+		width:140px;
+		height:140px;
+		background:url(images/detail-2-280.jpg) no-repeat;
+		background-size:cover
+
+		}
+	#contenu, h2{display:none;}
+}
+
+</style>
+<title>La papeterie</title>
+</head>
+
+<body>
+<div id="conteneur">
+<div id="header">
+	<div id="headerH">
+	<h1>La Papeterie</h1>
+    <div id="adress">28, rue des haies<br />Boulogne 92000</div>
+    <br class="annule"/>
+    
+    </div>
+    <div id="headerB">
+    <a id="tel" href="tel:0102030405"><img src="images/640-demi-cercle.png" alt="01 02  03 04 05" /></a>
+    <img src="images/precedent.png" id="prec" alt="precedent" />
+    </div>
+<br class="annule" />
+</div>
+<h2>Promos</h2>
+
+<div id="contenu">
+
+	<div id="image"></div>
+    <p>Changer l'orientation pour voir des détails</p>
+</div>
+
+<div id="detail">
+<div id="detail1"></div><div id="detail2"></div>
+
+</div>
+
+</div>
+</body>
+</html>
