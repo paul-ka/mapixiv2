@@ -1,0 +1,228 @@
+@charset "UTF-8";
+/* CSS Document */
+html{min-height:100%;}
+
+*{
+	margin:0;
+	padding:0;
+	}
+
+ul, ol{list-style:none;}
+
+a{color:#FFF;
+text-decoration:none;
+-webkit-tap-highlight-color:rgba(0, 132, 153, 0.5);
+}
+
+body{
+	background:url(../images/640-fond.jpg) top center no-repeat fixed;
+	color:#000;
+	font-size:100%;
+	height:100%;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background-size:cover;
+	
+	}
+.annule{clear:both;}
+
+#conteneur{
+	padding-bottom:30%;
+	margin:0 auto;
+	max-width:680px;
+	}
+
+#headerH{
+	padding:0 0 0 10.625%;
+	border-bottom:1px solid black;
+	background-color:#696969;
+	}
+h1{
+	float:left;
+	font-size:1.25em;
+	text-align:left;
+	color:#fff;
+	}
+
+#adress{
+	float:right;
+	width:28%;
+	text-align:center;
+	font-size:0.5em;
+	color:white;
+	margin-right:10.625%;
+	}
+	
+	#headerB img{
+		width:24.375%;
+		float:right;
+		margin-right:10.625%;
+		}
+#header #prec, #header .precedent{
+	float:left;
+	width:7.5%;
+	margin-left:10.625%;
+	}
+	
+#nav a{
+	display:block;
+	width:24.375%;
+	font-size:0.75em;
+	background:#2B477A;
+	-webkit-opacity:0.6;
+	opacity:0.6;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	text-align:center;
+	color:white;
+	text-decoration:none;
+	padding-bottom:2%;
+	
+	}
+	
+#nav a .icone{
+	display:block;
+	width:59px;
+	height:60px;
+	margin:0 auto;
+	}
+/*Page index */
+#nav a #quotidien{
+	background:url(../images/icones-nav.png) no-repeat  0 center;
+	}
+#nav a #politique{
+	background:url(../images/icones-nav.png) no-repeat  -59px center;
+	}
+#nav a #informatique{
+	background:url(../images/icones-nav.png) no-repeat  -118px center;
+	}
+#nav a #fournitures{
+	background:url(../images/icones-nav.png) no-repeat  -177px center;
+	}
+#nav a #meteo{
+	background:url(../images/icones-nav.png) no-repeat  -236px center;
+	}
+
+#nav a #panier{
+	background:url(../images/icones-nav.png) no-repeat  -295px center;
+	}
+#nav a #Consommation{
+	background:url(../images/icones-nav.png) no-repeat  -354px center;
+	}
+#nav a #boutiques{
+	background:url(../images/icones-nav.png) no-repeat  -350px center;
+	}
+/* page transport */
+#nav a #Circulation{
+	background:url(../images/icones-nav-transport.png) no-repeat  0 center;
+	}
+#nav a #Bus{
+	background:url(../images/icones-nav-transport.png) no-repeat  -59px center;
+	}
+#nav a #Train{
+	background:url(../images/icones-nav-transport.png) no-repeat  -118px center;
+	}
+#nav a #Velo{
+	background:url(../images/icones-nav-transport.png) no-repeat  -177px center;
+	}
+#nav a #tr_ad{
+	background:url(../images/icones-nav_transport.png) no-repeat  -236px center;
+	}
+/* page Vie politique */
+#nav a #Reunion_conseil{
+	background:url(../images/icones-nav-politique.png) no-repeat  0 center;
+	}
+#nav a #consult_public{
+	background:url(../images/icones-nav-politique.png) no-repeat  -59px center;
+	}
+#nav a #horaire_administrations{
+	background:url(../images/icones-nav-politique.png) no-repeat  -118px center;
+	}
+/* page vie quotidienne */
+#nav a #Ramassage_ordures{
+	background:url(../images/icones-nav-quotidien.png) no-repeat  0 center;
+	}
+#nav a #Horaire_déchetterie{
+	background:url(../images/icones-nav-quotidien.png) no-repeat  -59px center;
+	}
+#nav a #Ecoles{
+	background:url(../images/icones-nav-quotidien.png) no-repeat  -118px center;
+	}
+#nav a #Artisants{
+	background:url(../images/icones-nav-quotidien.png) no-repeat  -177px center;
+	}
+/* page culturel */
+#nav a #Culturel{
+	background:url(../images/icones-nav-loisir.png) no-repeat  0 center;
+	}
+#nav a #Sport{
+	background:url(../images/icones-nav-loisir.png) no-repeat  -59px center;
+	}
+#nav a #Nature{
+	background:url(../images/icones-nav-loisir.png) no-repeat  -118px center;
+	}
+#nav a #decouverte{
+	background:url(../images/icones-nav-loisir.png) no-repeat  -177px center;
+	}
+/* page consommation */
+#nav a #marche{
+	background:url(../images/icones-nav-consommation.png) no-repeat  0 center;
+	}
+#nav a #commerces{
+	background:url(../images/icones-nav-consommation.png) no-repeat  -59px center;
+	}
+
+
+.droite{
+	float:right;
+	margin-right:10.625%;
+	margin-top:5%;
+	}
+	
+.gauche{
+	float:left;
+	margin-left:10.625%;
+	margin-top:5%;
+	}
+	
+
+#listeFournitures{
+	background:#000;
+	-webkit-opacity:0.4;
+	opacity:0.4;
+	min-height:100%;
+	margin:0 10.625%;
+	
+	}
+h2{font-size:1em;	margin:4% 0 4% 10.625%;color:#696969;}
+	
+#listeFournitures a{
+	display:block;
+	color:#FFF;
+	text-align:left;
+	border-bottom:dotted 1px #bbb;
+	background:url(../images/fleche-little.png) no-repeat 95% center;
+	padding:3% 0 3% 5%;
+	}
+
+.mentions p{
+	text-align:justify; 
+	margin:5% 10.625% 5% 10.625%;
+}
+#contentMap {
+	height:400px;
+	
+	margin:1.758335% 11.5625% 1.758335% 11.5625%;
+}
+
+label{
+	float:left;
+	text-align:right;
+	padding-right:6.25%;
+	width:30%;
+	}
+textarea{width:40%;}
+li:last-child label{visibility:hidden;}
+
+input{margin-bottom:10px;}
+
+

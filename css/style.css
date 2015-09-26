@@ -1,0 +1,13 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.connect_inputs{
+	margin: 100px auto;
+	width: 300px;
+	height: 35px;
+}
+img.logo_accueil {
+    width: 114px;
+    height: auto;
+}

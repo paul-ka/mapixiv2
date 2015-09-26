@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="apple-mobile-web-app-capable" content="yes" />
+
+<link rel="apple-touch-startup-image" href="images/splash.png" />
+
+<link href="images/icone-57.png" rel="apple-touch-icon-precomposed" />
+<link href="images/icone-72.png" sizes="72x72" rel="apple-touch-icon-precomposed" />
+<link href="images/icone-114.png" sizes="114x114" rel="apple-touch-icon-precomposed" />
+
+<link rel="shortcut icon" href="images/icone.ico" type="image/x-icon" />
+
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, user-scalable=no, maximun-scale=0.6667" />
+<link href="css/styles.css" rel="stylesheet" type="text/css"  />
+
+<link href="css/styles320.css" rel="stylesheet" type="text/css" media="screen and (-webkit-device-pixel-ratio:1) and (max-device-width:320px)" />
+
+<link href="css/styles.css" rel="stylesheet" type="text/css" media="screen and (-webkit-device-pixel-ratio:2)" />
+<script type="text/javascript">
+	window.onload=function(){
+		document.getElementById("prec").onclick=function(){
+			window.history.back(0);
+		}
+	}
+</script>
+
+
+
+<title>La papeterie</title>
+</head>
+
+<body>
+<div id="conteneur">
+<div id="header">
+	<div id="headerH">
+	<h1>La Papeterie</h1>
+    <div id="adress">28, rue des haies<br />Boulogne 92000</div>
+    <br class="annule"/>
+    
+    </div>
+    <div id="headerB">
+    <a id="tel" href="tel:0102030405"><img src="images/640-demi-cercle.png" alt="01 02  03 04 05" /></a>
+    <img src="images/precedent.png" id="prec" alt="precedent" />
+    </div>
+<br class="annule" />
+</div>
+<h2>Panier</h2>
+<form action="traitement.php" method="post">
+	<ul>
+		<li> <label for="nom">Nom : </label><input type="text" name="nom" id="nom"  /></li>
+        <li><label for="mon">Prénom : </label><input type="text" name="prenom" id="prenom"  /></li>
+        <li><label for="tel">Téléphone : </label><input type="tel" id="tel" name="tel" /></li>
+        <li><label for="mail">mail : </label><input type="email" name="mail" id="mail"  /></li>
+        <li><label for="url">Votre site : </label><input type="url" id="url" name="url" /></li>
+        <li><label for="num">N° : </label><input type="number" id="num" name="num" : /></li>
+        <li><label for="submit">Envoyer : </label><input type="submit" name="submit" id="submit"  /></li>
+
+	</ul>
+</form>
+</div>
+</body>
+</html>
