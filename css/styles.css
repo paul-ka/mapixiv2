@@ -219,6 +219,8 @@ h1{
 
 .enhaut{
 	display:inline-block;
+	vertical-align:top;
+	padding-top:5px;
 
 }	
 
@@ -248,7 +250,8 @@ h1{
    background: #EEE;
    box-shadow: none;
    border:none;
-   margin:0
+   margin:0;
+   font-size:14px;
 }
 #liste_select li li:hover  {
   background: #EEE;
@@ -256,6 +259,11 @@ h1{
 }  
 #liste_select li:hover li {
   max-height: 15em;
+}
+.num{
+background-color:red;
+border-radius:50%;
+padding:0px 10px;
 }
 h2{font-size:1em;	margin:4% 0 4% 10.625%;color:#696969;}
 	
