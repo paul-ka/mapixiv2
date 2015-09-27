@@ -1,12 +1,12 @@
 {
   "version": "0.1",
-  "name": "Mapixis",
-  "description": "Application Mapixis",
-  "launch_path": "http://ecolelamadone.net/mapixis/navigue.html",
+  "name": "Mapixys",
+  "description": "Application Mapixys",
+  "launch_path": "/mapixis/navigue.html",
   "icons": {
-    "16": "http://ecolelamadone.net/mapixis/app-icons/icon-16.png",
-    "48": "http://ecolelamadone.net/mapixis/app-icons/icon-48.png",
-    "128": "http://ecolelamadone.net/mapixis/app-icons/icon-128.png"
+    "16": "/mapixis/app-icons/icon-16.png",
+    "48": "/mapixis/app-icons/icon-48.png",
+    "128": "/mapixis/app-icons/icon-128.png"
   },
   "developer": {
     "name": "Mapix developper Group",
@@ -21,4 +21,4 @@
     }
   },
   "default_locale": "fr"
-}
+} 
